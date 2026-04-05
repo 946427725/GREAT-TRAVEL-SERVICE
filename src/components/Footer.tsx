@@ -108,9 +108,6 @@ export default function Footer() {
             © {currentYear} <TranslatedText>{t.footer.companyName}</TranslatedText>. <TranslatedText>{t.footer.rights}</TranslatedText>
           </p>
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-             <p className="text-[9px] md:text-[10px] uppercase tracking-[0.4em] text-white/20 flex items-center gap-3 font-bold text-center">
-               <TranslatedText>{t.footer.designedFor}</TranslatedText> <span className="text-accent tracking-[0.6em]"><TranslatedText>{t.footer.luxury}</TranslatedText></span>
-             </p>
              <button 
                onClick={scrollToTop}
                className="w-12 h-12 md:w-14 md:h-14 rounded-full border border-white/10 flex items-center justify-center text-white/20 hover:text-accent hover:border-accent transition-all duration-500 hover:scale-110 active:scale-95"
