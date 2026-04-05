@@ -48,7 +48,7 @@ export default function TrustBlock() {
 
   const stats = [
     { label: t.trust.stats.since, value: 2013, suffix: '' },
-    { label: t.trust.stats.tourists, value: 1000, suffix: t.trust.stats.suffixTourists },
+    { label: t.trust.stats.tourists, value: 10000, suffix: t.trust.stats.suffixTourists },
     { label: t.trust.stats.selection, value: 5, suffix: t.trust.stats.suffixMin },
   ];
 
