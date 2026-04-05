@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import TrustBlock from './components/TrustBlock';
 import HotTours from './components/HotTours';
+import UzbekistanTours from './components/UzbekistanTours';
 import WhyUs from './components/WhyUs';
 import BookingForm from './components/BookingForm';
 import Location from './components/Location';
@@ -39,6 +40,7 @@ function AppContent() {
         <Services />
         <TrustBlock />
         <HotTours />
+        <UzbekistanTours />
         <WhyUs />
         <BookingForm />
         <Location />
