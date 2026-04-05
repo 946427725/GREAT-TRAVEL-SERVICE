@@ -186,12 +186,41 @@ export const translations = {
       newsletterDesc: 'Subscribe to get exclusive luxury travel deals.',
       emailPlaceholder: 'Email Address',
       rights: 'All rights reserved.',
-      designedFor: 'Designed for',
-      luxury: 'Luxury',
       bgText: 'GTS TRAVEL',
       companyName: 'GREAT TRAVEL SERVICE',
       logoAlt: 'GTS Logo',
       entry: 'Your journey begins here',
+    },
+    uzbekistan: {
+      badge: 'Explore Uzbekistan',
+      title: 'Timeless',
+      titleAccent: 'Cities',
+      subtitle: 'Discover timeless cities, rich culture, and unforgettable journeys',
+      trust: '10,000+ Happy Clients',
+      viewDetails: 'View Details',
+      tours: [
+        {
+          name: 'Samarkand: The Pearl of the East',
+          desc: 'Visit the majestic Registan Square and the eternal beauty of Bibi-Khanym Mosque.',
+          duration: '3 Days / 2 Nights',
+          price: 'From $250',
+          img: 'https://images.unsplash.com/photo-1733586092622-1b3201e802a5?w=800&auto=format&fit=crop&q=80'
+        },
+        {
+          name: 'Bukhara: The Noble City',
+          desc: 'Wander through the ancient streets of the Old City and discover the Ark Fortress.',
+          duration: '2 Days / 1 Night',
+          price: 'From $180',
+          img: 'https://images.unsplash.com/photo-1653023102302-247f5f0fbdd1?w=800&auto=format&fit=crop&q=80'
+        },
+        {
+          name: 'Khiva: An Open-Air Museum',
+          desc: 'Step back in time in the perfectly preserved inner city of Itchan Kala.',
+          duration: '2 Days / 1 Night',
+          price: 'From $220',
+          img: 'https://images.unsplash.com/photo-1728115214399-ad40d93eb935?w=800&auto=format&fit=crop&q=80'
+        }
+      ]
     }
   },
   RU: {
@@ -379,12 +408,41 @@ export const translations = {
       newsletterDesc: 'Подпишитесь, чтобы получать эксклюзивные предложения.',
       emailPlaceholder: 'Электронная почта',
       rights: 'Все права защищены.',
-      designedFor: 'Создано для',
-      luxury: 'Роскоши',
       bgText: 'GTS ПУТЕШЕСТВИЯ',
       companyName: 'GREAT TRAVEL SERVICE',
       logoAlt: 'GTS Логотип',
       entry: 'Ваше путешествие начинается здесь',
+    },
+    uzbekistan: {
+      badge: 'Исследуйте Узбекистан',
+      title: 'Вечные',
+      titleAccent: 'Города',
+      subtitle: 'Откройте для себя древние города, богатую культуру и незабываемые путешествия',
+      trust: '10,000+ Счастливых Клиентов',
+      viewDetails: 'Подробнее',
+      tours: [
+        {
+          name: 'Самарканд: Жемчужина Востока',
+          desc: 'Посетите величественную площадь Регистан и вечную красоту мечети Биби-Ханум.',
+          duration: '3 дня / 2 ночи',
+          price: 'От $250',
+          img: 'https://images.unsplash.com/photo-1733586092622-1b3201e802a5?w=800&auto=format&fit=crop&q=80'
+        },
+        {
+          name: 'Бухара: Благородный Город',
+          desc: 'Прогуляйтесь по древним улочкам Старого города и откройте для себя крепость Арк.',
+          duration: '2 дня / 1 ночь',
+          price: 'От $180',
+          img: 'https://images.unsplash.com/photo-1653023102302-247f5f0fbdd1?w=800&auto=format&fit=crop&q=80'
+        },
+        {
+          name: 'Хива: Музей под открытым небом',
+          desc: 'Вернитесь в прошлое в прекрасно сохранившемся внутреннем городе Ичан-Кала.',
+          duration: '2 дня / 1 ночь',
+          price: 'От $220',
+          img: 'https://images.unsplash.com/photo-1728115214399-ad40d93eb935?w=800&auto=format&fit=crop&q=80'
+        }
+      ]
     }
   },
   UZ: {
@@ -572,12 +630,41 @@ export const translations = {
       newsletterDesc: 'Eksklyuziv takliflarni olish uchun obuna bo\'ling.',
       emailPlaceholder: 'Elektron pochta',
       rights: 'Barcha huquqlar himoyalangan.',
-      designedFor: 'Dizayn',
-      luxury: 'Hashamat',
       bgText: 'GTS SAYOHAT',
       companyName: 'GREAT TRAVEL SERVICE',
       logoAlt: 'GTS Logotipi',
       entry: 'Sayohat shu yerdan boshlanadi',
+    },
+    uzbekistan: {
+      badge: 'O\'zbekiston bo\'ylab sayohat qiling',
+      title: 'Boqiy',
+      titleAccent: 'Shaharlar',
+      subtitle: 'Boqiy shaharlar, boy madaniyat va unutilmas sayohatlarni kashf eting',
+      trust: '10,000+ Mamnun Mijozlar',
+      viewDetails: 'Batafsil',
+      tours: [
+        {
+          name: 'Samarqand: Sharq gavhari',
+          desc: 'Muhtasham Registon maydoni va Bibi-Xonim masjidining boqiy go\'zalligini ko\'ring.',
+          duration: '3 kun / 2 tun',
+          price: '$250 dan',
+          img: 'https://images.unsplash.com/photo-1733586092622-1b3201e802a5?w=800&auto=format&fit=crop&q=80'
+        },
+        {
+          name: 'Buxoro: Sharif shahar',
+          desc: 'Eski shaharning qadimiy ko\'chalari bo\'ylab sayr qiling va Ark qal\'asini kashf eting.',
+          duration: '2 kun / 1 tun',
+          price: '$180 dan',
+          img: 'https://images.unsplash.com/photo-1653023102302-247f5f0fbdd1?w=800&auto=format&fit=crop&q=80'
+        },
+        {
+          name: 'Xiva: Ochiq osmon ostidagi muzey',
+          desc: 'Ichan-Qal\'aning mukammal saqlanib qolgan ichki shahrida vaqtga sayohat qiling.',
+          duration: '2 kun / 1 tun',
+          price: '$220 dan',
+          img: 'https://images.unsplash.com/photo-1728115214399-ad40d93eb935?w=800&auto=format&fit=crop&q=80'
+        }
+      ]
     }
   }
 };
